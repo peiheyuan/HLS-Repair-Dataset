@@ -20,13 +20,9 @@ with open("hls_repair_dataset.csv", "r", encoding="utf-8") as f:
 ## 不可综合类型
 
 0：指针  
-
 1：动态数组  
-
 2：递归  
-
 3：布尔运算  
-
 4：异常处理  
 
 ## 引用
