@@ -11,7 +11,7 @@ import csv
 with open("hls_repair_dataset.csv", "r", encoding="utf-8") as f:
     reader = csv.DictReader(f)
     for row in reader:
-        num = row["0"]
+        error_type = row["0"]
         buggy = row["1"]
         fixed = row["2"]
         # 用于模型训练、RAG检索等下游任务
